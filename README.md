@@ -4,7 +4,7 @@
 
 hexo 博客项目。
 
-[hexo 官网](https://hexo.io/zh-cn/)，[hexo 文档](https://hexo.io/zh-cn/docs/)，[hexo 部署到 GitHub](https://hexo.io/zh-cn/docs/github-pages)，[hexo 源码](https://github.com/hexojs/hexo)，[hexo-starter](https://github.com/hexojs/hexo-starter)。
+[hexo 官网](https://hexo.io/zh-cn/)，[hexo 文档](https://hexo.io/zh-cn/docs/)，[hexo 部署到 GitHub](https://hexo.io/zh-cn/docs/github-pages)，[hexo 源码](https://github.com/hexojs/hexo)，[hexo-starter](https://github.com/hexojs/hexo-starter)，[hexo themes](https://hexo.io/themes/index.html#Light/Dark%20Mode%20%E3%80%82)。
 
 ## 安装教程
 
@@ -64,6 +64,7 @@ hexo generate
 #### 4.4 部署到站点
 
 ```
+hexo clean
 hexo deploy
 ```
 
