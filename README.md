@@ -4,7 +4,7 @@
 
 hexo 博客项目。
 
-[hexo 官网](https://hexo.io/zh-cn/)，[hexo 文档](https://hexo.io/zh-cn/docs/)，[hexo 部署到 GitHub](https://hexo.io/zh-cn/docs/github-pages)，[hexo 源码](https://github.com/hexojs/hexo)，[hexo-starter](https://github.com/hexojs/hexo-starter)，[hexo themes](https://hexo.io/themes/index.html#Light/Dark%20Mode%20%E3%80%82)。
+[hexo 官网](https://hexo.io/zh-cn/)，[hexo 文档](https://hexo.io/zh-cn/docs/)，[hexo 部署到 GitHub](https://hexo.io/zh-cn/docs/github-pages)，[hexo 源码](https://github.com/hexojs/hexo)，[hexo-starter](https://github.com/hexojs/hexo-starter)，[hexo themes](https://hexo.io/themes/)。
 
 ## 安装教程
 
@@ -40,7 +40,7 @@ git commit -m "first commit"
 git push -u origin main
 ```
 
-### 4. 部署站点
+### 4. 在 GitHub 上部署站点
 
 #### 4.1 安装 hexo-deployer-git
 
@@ -61,11 +61,50 @@ hexo clean
 hexo generate
 ```
 
-#### 4.4 部署到站点
+#### 4.4 修改 _config.yml
+
+```
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://github.com/d7c-admin/d7c.github.io
+  branch: gh-pages
+```
+
+#### 4.5 部署到站点
 
 ```
 hexo clean
 hexo deploy
+访问：https://d7c.github.io/
+```
+
+### 5. 在 Gitee 上部署站点
+
+#### 5.1 安装 hexo-deployer-git
+
+```
+npm install --save hexo-deployer-git
+```
+
+#### 5.2 修改 _config.yml
+
+```
+# Deployment
+## Docs: https://hexo.io/docs/one-command-deployment
+deploy:
+  type: git
+  repo: https://gitee.com/d7c/d7c.gitee.io.git
+  branch: master
+```
+
+#### 5.3 部署到站点
+
+```
+hexo clean
+hexo deploy
+访问：https://d7c.github.io/
 ```
 
 ## 目录说明

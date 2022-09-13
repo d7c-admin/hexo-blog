@@ -103,5 +103,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/d7c-admin/d7c.github.io
-  branch: gh-pages
+  # repo: https://github.com/d7c-admin/d7c.github.io
+  repo: https://gitee.com/d7c/d7c.gitee.io.git
+  # branch: gh-pages
+  branch: master
