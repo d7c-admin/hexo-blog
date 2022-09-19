@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
-language: en
-timezone: ''
+title: 第七仓
+subtitle: '第七仓博客'
+description: '第七仓 Gitee 博客。'
+keywords: '第七仓,吴佳隆'
+author: 吴佳隆
+language: zh-CN
+timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://gitee.com/d7c/d7c
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -104,6 +104,6 @@ theme: landscape
 deploy:
   type: git
   # repo: https://github.com/d7c-admin/d7c.github.io
-  repo: https://gitee.com/d7c/d7c.gitee.io.git
+  repo: https://gitee.com/d7c/d7c.git
   # branch: gh-pages
   branch: master
