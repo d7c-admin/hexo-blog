@@ -95,7 +95,7 @@ npm install --save hexo-deployer-git
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://gitee.com/d7c/d7c.gitee.io.git
+  repo: https://gitee.com/d7c/d7c.git
   branch: master
 ```
 
@@ -104,7 +104,7 @@ deploy:
 ```
 hexo clean
 hexo deploy
-访问：https://d7c.github.io/
+访问：https://d7c.gitee.io/
 ```
 
 ## 目录说明
